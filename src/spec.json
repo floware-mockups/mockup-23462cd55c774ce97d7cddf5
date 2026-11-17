@@ -1,0 +1,126 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo navigabile per registrare e consultare arredi per aula, quantità e stato di conservazione. Tutte le scuole e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica dell’inventario e accesso alle pagine di consultazione e inserimento.",
+      "metrics": [
+        {
+          "label": "Arredi registrati",
+          "value": "248"
+        },
+        {
+          "label": "Aule censite",
+          "value": "18"
+        },
+        {
+          "label": "In buono stato",
+          "value": "186"
+        },
+        {
+          "label": "Da verificare",
+          "value": "42"
+        }
+      ],
+      "columns": [],
+      "rows": [],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario arredi",
+      "description": "Consulta gli arredi e filtra la tabella per aula, tipologia o stato di conservazione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco modulare",
+          "24",
+          "Buono",
+          "Piani integri"
+        ],
+        [
+          "Aula Vela",
+          "Sedia impilabile",
+          "28",
+          "Buono",
+          "Nessuna anomalia"
+        ],
+        [
+          "Aula Nubi",
+          "Tavolo attività",
+          "6",
+          "Da verificare",
+          "Controllare una gamba"
+        ],
+        [
+          "Aula Prisma",
+          "Libreria bassa",
+          "3",
+          "Da riparare",
+          "Un ripiano instabile"
+        ],
+        [
+          "Aula Rugiada",
+          "Armadio didattico",
+          "2",
+          "Buono",
+          "Ante funzionanti"
+        ],
+        [
+          "Aula Cometa",
+          "Banco modulare",
+          "22",
+          "Da verificare",
+          "Segni superficiali"
+        ],
+        [
+          "Aula Mirto",
+          "Sedia impilabile",
+          "26",
+          "Buono",
+          "Nessuna anomalia"
+        ],
+        [
+          "Aula Zefiro",
+          "Tavolo attività",
+          "5",
+          "Buono",
+          "Piani integri"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra arredo",
+      "description": "Aggiungi una voce all’inventario indicando aula, arredo, quantità e stato.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione",
+        "Note"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione",
+        "Note"
+      ]
+    }
+  ]
+}
